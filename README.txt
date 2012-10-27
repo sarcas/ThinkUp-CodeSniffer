@@ -1,3 +1,9 @@
+#Introduction
+I intend to customize this sniffer codebase to make it work for
+ThinkUp's style guide. Below is the original readme for the (now no
+longer maintained) Drupal code sniffing code that this is based on.
+
+#Drupal READ Me
 -------------------------------------------------------------------------------
                             Drupal Code Sniffer
 -------------------------------------------------------------------------------
