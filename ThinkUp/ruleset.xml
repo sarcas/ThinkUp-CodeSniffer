@@ -36,14 +36,18 @@
   the HTML -->
   <exclude-pattern>*.tpl.php</exclude-pattern>
  </rule>
- 
+ <rule ref="ThinkUp.Files.LineLength" />
+ <rule ref="ThinkUp.Commenting.FileComment" />
+ <rule ref="ThinkUp.Commenting.FunctionComment" />
+ <rule ref="ThinkUp.Commenting.DocCommentAlignment" />
+
  <rule ref="Generic.Formatting.SpaceAfterCast" />
  <rule ref="Generic.Functions.FunctionCallArgumentSpacing" />
  <rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie" />
  <rule ref="Generic.NamingConventions.ConstructorName" />
  <rule ref="Generic.NamingConventions.UpperCaseConstantName" />
  <rule ref="Generic.PHP.DisallowShortOpenTag" />
- <rule ref="Generic.PHP.UpperCaseConstant" />
+ <rule ref="Generic.PHP.LowerCaseConstant" />
  <rule ref="Generic.WhiteSpace.DisallowTabIndent" />
 
  <!-- Use Unix newlines -->
