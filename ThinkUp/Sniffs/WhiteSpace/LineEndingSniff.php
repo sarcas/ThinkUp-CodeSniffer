@@ -1,6 +1,6 @@
 <?php
 
-class Drupal_Sniffs_WhiteSpace_LineEndingSniff implements PHP_CodeSniffer_Sniff
+class ThinkUp_Sniffs_WhiteSpace_LineEndingSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

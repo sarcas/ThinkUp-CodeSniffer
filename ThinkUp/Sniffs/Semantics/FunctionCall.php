@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_Semantics_FunctionCall.
+ * ThinkUp_Sniffs_Semantics_FunctionCall.
  *
  * PHP version 5
  *
@@ -16,7 +16,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-abstract class Drupal_Sniffs_Semantics_FunctionCall implements PHP_CodeSniffer_Sniff
+abstract class ThinkUp_Sniffs_Semantics_FunctionCall implements PHP_CodeSniffer_Sniff
 {
 
     /**

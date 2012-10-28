@@ -14,7 +14,7 @@
  * Checks that else/elseif statements start on a new line.
  *
  * Unfortunately we need this sniff because
- * Drupal_Sniffs_ControlStructures_ControlSignatureSniff does not
+ * ThinkUp_Sniffs_ControlStructures_ControlSignatureSniff does not
  * detect this.
  *
  * @category PHP
@@ -22,7 +22,7 @@
  * @author   Klaus Purer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_ControlStructures_ElseNewlineSniff implements
+class ThinkUp_Sniffs_ControlStructures_ElseNewlineSniff implements
 PHP_CodeSniffer_Sniff
 {
 

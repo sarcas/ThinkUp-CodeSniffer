@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_Whitespace_ScopeIndentSniff.
+ * ThinkUp_Sniffs_Whitespace_ScopeIndentSniff.
  *
  * PHP version 5
  *
@@ -21,7 +21,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_WhiteSpace_ScopeIndentSniff implements PHP_CodeSniffer_Sniff
+class ThinkUp_Sniffs_WhiteSpace_ScopeIndentSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

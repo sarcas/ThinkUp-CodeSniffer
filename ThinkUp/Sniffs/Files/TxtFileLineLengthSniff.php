@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_Files_TxtFileLineLengthSniff.
+ * ThinkUp_Sniffs_Files_TxtFileLineLengthSniff.
  *
  * PHP version 5
  *
@@ -11,7 +11,7 @@
  */
 
 /**
- * Drupal_Sniffs_Files_TxtFileLineLengthSniff.
+ * ThinkUp_Sniffs_Files_TxtFileLineLengthSniff.
  *
  * Checks all lines in a *.txt file and throws warnings if they are over 80
  * characters in length.
@@ -21,7 +21,7 @@
  * @author   Klaus Purer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Files_TxtFileLineLengthSniff implements PHP_CodeSniffer_Sniff
+class ThinkUp_Sniffs_Files_TxtFileLineLengthSniff implements PHP_CodeSniffer_Sniff
 {
 
 

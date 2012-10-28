@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_ControlStructures_TemplateControlStructureSniff.
+ * ThinkUp_Sniffs_ControlStructures_TemplateControlStructureSniff.
  *
  * PHP version 5
  *
@@ -17,7 +17,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_ControlStructures_TemplateControlStructureSniff implements PHP_CodeSniffer_Sniff
+class ThinkUp_Sniffs_ControlStructures_TemplateControlStructureSniff implements PHP_CodeSniffer_Sniff
 {
 
 

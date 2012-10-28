@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_NamingConventions_ValidFunctionNameSniff.
+ * ThinkUp_Sniffs_NamingConventions_ValidFunctionNameSniff.
  *
  * PHP version 5
  *
@@ -19,7 +19,7 @@ if (class_exists('PHP_CodeSniffer_Standards_AbstractScopeSniff', true) === false
 }
 
 /**
- * Drupal_Sniffs_NamingConventions_ValidFunctionNameSniff.
+ * ThinkUp_Sniffs_NamingConventions_ValidFunctionNameSniff.
  *
  * Ensures method names are correct depending on whether they are public
  * or private, and that functions are named correctly.
@@ -34,7 +34,7 @@ if (class_exists('PHP_CodeSniffer_Standards_AbstractScopeSniff', true) === false
  * @version   Release: 1.2.0RC3
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_NamingConventions_ValidFunctionNameSniff extends PEAR_Sniffs_NamingConventions_ValidFunctionNameSniff
+class ThinkUp_Sniffs_NamingConventions_ValidFunctionNameSniff extends PEAR_Sniffs_NamingConventions_ValidFunctionNameSniff
 {
 
     /**
@@ -103,7 +103,7 @@ class Drupal_Sniffs_NamingConventions_ValidFunctionNameSniff extends PEAR_Sniffs
      */
     protected function processTokenOutsideScope(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
     {
-        // Empty override, does not apply to Drupal.
+        // Empty override, does not apply to ThinkUp.
 
     }//end processTokenOutsideScope()
 

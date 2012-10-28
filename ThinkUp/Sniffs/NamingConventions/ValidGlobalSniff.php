@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_NamingConventions_ValidGlobalSniff.
+ * ThinkUp_Sniffs_NamingConventions_ValidGlobalSniff.
  *
  * PHP version 5
  *
@@ -16,7 +16,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_NamingConventions_ValidGlobalSniff implements PHP_CodeSniffer_Sniff
+class ThinkUp_Sniffs_NamingConventions_ValidGlobalSniff implements PHP_CodeSniffer_Sniff
 {
 
     public $coreGlobals = array(

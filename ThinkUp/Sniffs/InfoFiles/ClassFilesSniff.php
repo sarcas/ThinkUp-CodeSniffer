@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_InfoFiles_ClassFilesSniff.
+ * ThinkUp_Sniffs_InfoFiles_ClassFilesSniff.
  *
  * PHP version 5
  *
@@ -17,7 +17,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_InfoFiles_ClassFilesSniff implements PHP_CodeSniffer_MultiFileSniff
+class ThinkUp_Sniffs_InfoFiles_ClassFilesSniff implements PHP_CodeSniffer_MultiFileSniff
 {
 
 
@@ -93,7 +93,7 @@ class Drupal_Sniffs_InfoFiles_ClassFilesSniff implements PHP_CodeSniffer_MultiFi
 
 
     /**
-     * Parses a Drupal info file. Copied from Drupal core drupal_parse_info_format().
+     * Parses a ThinkUp info file. Copied from Drupal core drupal_parse_info_format().
      *
      * @param string $data The contents of the info file to parse
      *

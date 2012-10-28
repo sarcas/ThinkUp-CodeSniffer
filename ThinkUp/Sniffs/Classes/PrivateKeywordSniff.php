@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_Classes_PrivateKeywordSniff.
+ * ThinkUp_Sniffs_Classes_PrivateKeywordSniff.
  *
  * PHP version 5
  *
@@ -16,7 +16,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Classes_PrivateKeywordSniff implements PHP_CodeSniffer_Sniff
+class ThinkUp_Sniffs_Classes_PrivateKeywordSniff implements PHP_CodeSniffer_Sniff
 {
 
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_ControlStructures_InlineControlStructureSniff.
+ * ThinkUp_Sniffs_ControlStructures_InlineControlStructureSniff.
  *
  * PHP version 5
  *
@@ -10,10 +10,10 @@
  */
 
 /**
- * Drupal_Sniffs_ControlStructures_InlineControlStructureSniff.
+ * ThinkUp_Sniffs_ControlStructures_InlineControlStructureSniff.
  *
  * Verifies that inline control statements are not present. This Sniff overides
- * the generic sniff because Drupal template files may use the alternative
+ * the generic sniff because ThinkUp template files may use the alternative
  * syntax for control structures. See
  * http://www.php.net/manual/en/control-structures.alternative-syntax.php
  *
@@ -21,7 +21,7 @@
  * @package   PHP_CodeSniffer
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_ControlStructures_InlineControlStructureSniff
+class ThinkUp_Sniffs_ControlStructures_InlineControlStructureSniff
 extends Generic_Sniffs_ControlStructures_InlineControlStructureSniff
 {
 
