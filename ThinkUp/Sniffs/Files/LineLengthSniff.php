@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_Files_LineLengthSniff.
+ * ThinkUp_Sniffs_Files_LineLengthSniff.
  *
  * PHP version 5
  *
@@ -17,7 +17,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Files_LineLengthSniff extends Generic_Sniffs_Files_LineLengthSniff
+class ThinkUp_Sniffs_Files_LineLengthSniff extends Generic_Sniffs_Files_LineLengthSniff
 {
 
     /**
@@ -25,7 +25,7 @@ class Drupal_Sniffs_Files_LineLengthSniff extends Generic_Sniffs_Files_LineLengt
      *
      * @var int
      */
-    public $lineLimit = 80;
+    public $lineLimit = 120;
 
     /**
      * The limit that the length of a line must not exceed.
