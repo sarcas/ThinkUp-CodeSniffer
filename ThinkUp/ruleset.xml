@@ -1,37 +1,37 @@
 <?xml version="1.0"?>
 <!-- See http://pear.php.net/manual/en/package.php.php-codesniffer.annotated-ruleset.php -->
-<ruleset name="Drupal">
- <description>Drupal coding standard</description>
+<ruleset name="ThinkUp">
+ <description>ThinkUp coding standard</description>
 
- <rule ref="Drupal.Commenting.FileComment">
+ <rule ref="ThinkUp.Commenting.FileComment">
   <!-- Do not run this sniff on txt files. -->
   <exclude-pattern>*.txt</exclude-pattern>
  </rule>
- <rule ref="Drupal.Commenting.FileComment.SpacingAfter">
+ <rule ref="ThinkUp.Commenting.FileComment.SpacingAfter">
   <!-- Do not run this sniff on template files. -->
   <exclude-pattern>*.tpl.php</exclude-pattern>
  </rule>
- <rule ref="Drupal.ControlStructures.ControlSignature">
+ <rule ref="ThinkUp.ControlStructures.ControlSignature">
   <!-- Do not run this sniff on template files. -->
   <exclude-pattern>*.tpl.php</exclude-pattern>
  </rule>
- <rule ref="Drupal.ControlStructures.ElseNewline">
+ <rule ref="ThinkUp.ControlStructures.ElseNewline">
   <!-- Do not run this sniff on template files. -->
   <exclude-pattern>*.tpl.php</exclude-pattern>
  </rule>
- <rule ref="Drupal.Formatting.DisallowCloseTag">
+ <rule ref="ThinkUp.Formatting.DisallowCloseTag">
   <!-- Do not run this sniff on template files. -->
   <exclude-pattern>*.tpl.php</exclude-pattern>
  </rule>
- <rule ref="Drupal.Formatting.SpaceColon">
+ <rule ref="ThinkUp.Formatting.SpaceColon">
   <!-- Do not run this sniff on template files. -->
   <exclude-pattern>*.tpl.php</exclude-pattern>
  </rule>
- <rule ref="Drupal.WhiteSpace.ScopeClosingBrace">
+ <rule ref="ThinkUp.WhiteSpace.ScopeClosingBrace">
   <!-- Do not run this sniff on template files. -->
   <exclude-pattern>*.tpl.php</exclude-pattern>
  </rule>
- <rule ref="Drupal.WhiteSpace.ScopeIndent">
+ <rule ref="ThinkUp.WhiteSpace.ScopeIndent">
   <!-- Do not run this sniff on template files, as the indentation might follow
   the HTML -->
   <exclude-pattern>*.tpl.php</exclude-pattern>
