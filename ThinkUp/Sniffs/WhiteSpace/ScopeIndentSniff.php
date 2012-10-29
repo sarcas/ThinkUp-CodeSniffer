@@ -29,7 +29,7 @@ class ThinkUp_Sniffs_WhiteSpace_ScopeIndentSniff implements PHP_CodeSniffer_Snif
      *
      * @var int
      */
-    public $indent = 2;
+    public $indent = 4;
 
     /**
      * Does the indent need to be exactly right.
